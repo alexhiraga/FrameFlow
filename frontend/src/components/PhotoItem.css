@@ -1,0 +1,8 @@
+#hideScrollbar::-webkit-scrollbar {
+  width: 0.5em; /* Adjust the width of the scrollbar */
+}
+
+#hideScrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0); /* Set the background color to transparent */
+  display: none; /* Hide the scrollbar */
+}
